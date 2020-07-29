@@ -21,4 +21,18 @@ class BlogsController < ApplicationController
         end
     end
 
+    def update
+        if @blog.update(blog_params)
+            render json: @blog
+        else
+            render json: @blog.errors
+        end
+    end
+
+    def destroy
+        @blog.destroy
+    end
+
+    
+
 end
