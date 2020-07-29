@@ -33,6 +33,14 @@ class BlogsController < ApplicationController
         @blog.destroy
     end
 
+    private
     
+    def set_blog 
+        @blog = Blog.find(params[:id])
+    end
+
+    def blog_params
+        params.require(:blog).permit(:title, :content, :link, :favorite)
+    end
 
 end
