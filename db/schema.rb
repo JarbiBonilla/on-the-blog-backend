@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2020_07_29_215709) do
     t.text "content"
     t.string "link"
     t.integer "favorite", default: 0
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

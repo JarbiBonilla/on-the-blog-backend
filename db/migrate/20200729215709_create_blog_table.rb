@@ -5,6 +5,8 @@ class CreateBlogTable < ActiveRecord::Migration[6.0]
       t.text :content
       t.string :link
       t.integer :favorite, :default => 0
+
+      t.timestamps 
     end
   end
 end
