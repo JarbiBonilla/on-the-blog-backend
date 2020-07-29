@@ -13,12 +13,12 @@ class BlogsController < ApplicationController
     end
 
     def create
-        @ablog = Blog.new(blog_params)
+        @blog = Blog.new(blog_params)
         if @blog.save
             render json: @blog 
         else
             render json: @blog.errors
         end
     end
-    
+
 end
