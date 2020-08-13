@@ -31,6 +31,7 @@ class BlogsController < ApplicationController
 
     def destroy
         @blog.destroy
+        render json: @blog 
     end
 
     private
