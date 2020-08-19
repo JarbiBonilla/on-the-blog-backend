@@ -13,8 +13,7 @@ Blog.create([{
         The ants enjoyed the barbecue more than the family.
         He picked up trash in his spare time to dump in his neighbor's yard.
         There were three sphered rocks congregating in a cubed room.",
-        link: "example",
-        favorite: 0
+        link: "example"
     },
 
     {
@@ -24,8 +23,7 @@ Blog.create([{
         The river stole the gods.
         Going from child, to childish, to childlike is only a matter of time.
         As you consider all the possible ways to improve yourself and the world, you notice John Travolta seems fairly unhappy.",
-        link: "example2",
-        favorite: 0
+        link: "example2"
     },
 
     {
@@ -35,8 +33,7 @@ Blog.create([{
         Fluffy pink unicorns are a popular status symbol among macho men.
         He shaved the peach to prove a point.
         The teens wondered what was kept in the red shed on the far edge of the school grounds.",
-        link: "example3",
-        favorite: 0
+        link: "example3"
     }
 
 ])
