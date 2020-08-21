@@ -1,25 +1,34 @@
-# README
+# About
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to On The Blog! Where users can create their own blogs about anything they want!
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+To get this application up and running, you'll need to fork and clone this repo, along with the [on-the-blog-frontend](https://github.com/JarbiBonilla/on-the-blog-frontend).
 
-* System dependencies
+You will need to have SQLite and Rails installed.
+* Run your SQLite server for the DB.
+* Run the rails server from the on-the-blog-backend.
+* You'll need to cd into the project directory and run ``bundle install``. All the gem dependancies will then be installed.
 
-* Configuration
+## Database Creation
+Navigate to the on-the-blog-backend folder and run the following:
 
-* Database creation
+* rails db:create
+* rails db:migrate
+* rails db:seed
 
-* Database initialization
+## Dependencies 
 
-* How to run the test suite
+ * [Rails](https://guides.rubyonrails.org/) - backend API
+ * [SQLite](https://www.sqlite.org/index.html) - database
 
-* Services (job queues, cache servers, search engines, etc.)
+ ## Authors
 
-* Deployment instructions
+[Jarbi Bonilla](https://github.com/JarbiBonilla)
 
-* ...
-# on-the-blog-backend
+## Acknowledgements
+
+* Would love to thank my amazing Lead Cohort Corinna Brock Moore! Would not have gotten this far without her.
+* Raymond Gonzalez, who is in the cohort with me. Thank you for staying up late every night with me while I pull my hair out.
+* Pharia Le, who was also with me every step of the way!
